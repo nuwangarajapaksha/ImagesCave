@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2021, 9:45:30 PM
+    Author     : EZIO AUDITORY
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+a{
+   text-decoration: none;
+}
+.footer-div{
+    width: 100%;
+    background-color: #333333;
+    position: static;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.footer-title{    
+    font-size: 30px;
+    margin-left: 5%;
+    padding-top: 2%;
+}
+
+.footer-description{
+    font-size: 20px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.div-lists{
+    margin-top: 2%;
+    text-transform: capitalize;
+}
+
+.dl-lists{
+    display: inline-table;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.dt-title{
+    font-size: 15px;
+    margin: 25% 0%;
+    font-weight: 550;
+}
+.dt-title a{
+    color: #ffffff;
+}
+.dt-title a:hover{
+    color: #cccccc;
+}
+.dd-data{
+    margin: 25% 0%;
+    font-size: 14px;
+    font-weight: 300;   
+}
+.dd-data a{
+    color: #cccccc;
+}
+.dd-data a:hover{
+    color: #ffffff;
+}
+
+/*------------------------contacts bar------------------------------------------------------------*/
+
+.div-contacts{
+    width: 100%;
+    border-top: 1px solid #ffffff;      
+}
+.dl-contacts{
+    display: inline-table;
+    margin-left: 8%;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+}
+.dt-contacts-title{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.dd-contact-Information{
+    font-size: 14px;
+    font-weight: 300;
+    color: #cccccc; 
+}
+
+.dd-contact-Information a{
+    color: #cccccc; 
+}
+.dd-contact-Information a:hover{
+    color: #ffffff;
+}

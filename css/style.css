@@ -1,0 +1,308 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 2, 2021, 4:43:32 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+.slider-area{
+    background-color: pink;
+    width: 100%;
+    height: 700px;   
+}
+
+.slider{
+    width: 100%;
+    height: 700px;
+}
+
+.search-form{
+    margin-top: -500px;   
+}
+.searchBar{
+    width: 50%;
+    height: 50px;
+    margin-left: 25%;
+    font-size: 20px;
+    text-transform: none;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 16px;
+    border: 2px solid #ff3333;
+    color: #333333;
+}
+
+.searchButton{
+    width: 100px;
+    height: 54px;
+    margin-left: -6.6%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff3333;
+    outline: none;
+    border: 2px solid #ff3333;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.searchBar:hover{
+    border: 2px solid #ff0033;
+}
+.searchButton:hover{
+    background-color: #ff0033;
+    border: 2px solid #ff0033;
+    cursor: pointer;
+}
+
+
+
+
+
+.description-box{
+    background-size: auto;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 50px 5%;   
+    border-radius: 8px;
+}
+.description-box-1{
+    background-image: url(../img/Description_b_1.jpg);    
+    background-position-y: -320px;       
+    margin-top: 80px;
+}
+.description-box1-line1{
+    margin-top: 0px;
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+    
+}
+.description-box1-line2{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #ff3333;   
+}
+.description-box1-line3{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    
+}
+.description-box-2{
+    background-image: url(../img/Description_b_2.jpg);
+    background-position-y: -500px;
+}
+
+.description-box2-line1{
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    
+}
+.description-box2-line2{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 30px;
+    color: #ff3333;
+    
+}
+.description-box-3{
+    background-image: url(../img/Description_b_3.jpg);
+    background-position-y: -610px;
+}
+
+
+
+
+.vertical-line{
+    width: 70%;
+    height: 1px;
+    margin: 0px auto;
+    background-color: #ff3333;
+}
+
+
+.product-area{
+    background-color: #ffffff;
+    width: 82%;
+    margin: 0px auto;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.area1{
+    margin-top: 60px;
+}
+
+.product{
+    display: inline-table;
+    background-color: #ffffff;
+    width: 32%;
+    margin: 14px 0px;
+    margin-left: 0.8%;
+    border-radius: 8px;
+}
+
+
+
+.product-img{
+    opacity: 1;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #999999;
+}
+
+.product-img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.product-description-line1{
+    font-size: 24px;
+    padding-left: 1%;
+    padding-top: 10px;
+    color: #333333;
+    
+}
+.product-description-line2{
+    font-size: 17px;
+    padding-left: 1%;
+    padding-top: 2px;
+    color: #333333;
+}
+.video-area{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.video-area video{
+    width: 640px;
+    height: 360px;
+}
+
+.description-box-4{
+    width: 70%;
+    background-image: url(../img/Description_b_4.jpg);    
+    background-position-y: -260px;       
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.description-box-4-button{
+    width: 125px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #ff3333;
+    border-radius: 10px;
+    border: 1.5px solid #ff3333;
+    outline: none;
+}
+.description-box-4-button:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;  
+    cursor: pointer;
+}
+.vertical-line-topdescription{
+    width: 20%;
+    height: 1px;
+    margin: 0px auto;
+    background-color: #999999;
+}
+.bottom-description{
+    width: 40%;
+    margin: 0px auto;
+    padding: 0px 5%;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 16px;
+    color: #999999;
+    
+}
+.bottom-description p{
+    text-transform: none;
+}
+.bottom-description-tradeName{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:1280px){
+.searchBar{
+    margin-left: 24%;
+}
+}
+
+
+@media only screen and (max-width:1054px){
+.searchBar{
+    margin-left: 23%;
+}
+
+
+.product-area{
+    width: 84%;
+}
+.product{
+    width: 30%;
+    margin-left: 2.1%;
+}   
+}
+
+
+
+
+
+@media only screen and (max-width:768px){
+.searchBar{
+    margin-left: 22%;
+}
+.product-area{
+    width: 80%;
+}
+.product{
+    width: 100%;
+    margin: 14px 0px;
+}
+.video-area video{
+    width: 100%;
+
+}
+}
+@media only screen and (max-width:480px){
+.searchBar{
+    margin-left: 17%;
+}
+}
+@media only screen and (max-width:360px){
+    
+.searchBar{
+    margin-left: 12%;
+}
+.description-box-3{
+    background-position-y: -110px;
+}
+}

@@ -1,0 +1,172 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2021, 8:56:23 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.sellerReprot-area{
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    margin: 2% auto;
+    padding: 4% 4%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px #999999;
+}
+.sellerReprot-area-logo{
+    width: 300px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.sellerReprot-area-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4% auto;
+}
+
+.sellerReprot-area-ppic-area{
+    width: 120px;
+    height: 120px;
+    margin: 4% auto;
+    margin-bottom: 6%;
+    padding: 0.5%;
+    border: 2px solid #ff3333;
+    border-radius: 100%;
+}
+
+.sellerReprot-area-ppic{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+.sellerReprot-area-pline{
+    font-size: 18px;
+    margin: 2.5% auto;  
+
+}
+.sellerReprot-area-content{
+    font-weight: bold;
+    color: #ff3333;
+}
+
+.sellerReprot-area-data{
+    font-weight: 500;
+    color: #333333;
+    float: right;  
+}
+
+.sellerReprot-area-button{
+    width: 20%;
+    height: 100%;
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 2% 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999999;
+    outline: none;
+}
+
+.button-remove{
+    background-color: #ff3333;
+    border: 1.5px solid #ff3333;
+}
+
+.button-back{  
+    background-color: #3366ff;
+    border: 1.5px solid #3366ff;
+}
+
+.sellerReprot-area-button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #999999;
+}
+
+.button-remove:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+}
+
+.button-back:hover{
+    background-color: #0066cc;
+    border: 1.5px solid #0066cc;
+}
+
+.sellerReprot-area-verticale-line{
+    width: 100%;
+    height: 1px;
+    margin: 10px auto;
+    margin-top: 40px;
+    background-color: #ff3333;
+}
+
+
+@media only screen and (max-width:1280px){
+.sellerReprot-area{
+    width: 40%;
+}
+}
+
+@media only screen and (max-width:1024px){
+.sellerReprot-area{
+    width: 50%;
+}
+}
+
+
+@media only screen and (max-width:768px){
+.sellerReprot-area{
+    width: 60%;
+}
+}
+
+@media only screen and (max-width:480px){
+.sellerReprot-area{
+    width: 90%;
+}
+}
+
+
+
+@media only screen and (max-width:320px){
+.sellerReprot-area{
+    width: 90%;
+}
+.sellerReprot-area-logo{
+    width: 200px;
+    font-size: 30px;
+}
+
+.sellerReprot-area-title{
+    font-size: 20px;
+}
+
+.sellerReprot-area-ppic-area{
+    width: 80px;
+    height: 80px;
+    padding: 1%;
+}
+
+.sellerReprot-area-pline{
+    font-size: 14px; 
+}
+
+.sellerReprot-area-button{
+    width: 40%;
+    margin-top: 2%;
+}
+}

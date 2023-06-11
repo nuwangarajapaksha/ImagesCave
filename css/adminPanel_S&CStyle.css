@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2021, 10:39:54 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.adminPanel-sc-area{
+    width: 72%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.adminPanel-sc-area-table{
+    width: 100%;
+    background-color: white;
+}
+
+.adminPanel-sc-area-table-content{
+    font-size: 30px;
+    color: #ff3333;
+}
+
+.adminPanel-sc-area-table-content td{
+    padding: 2% 1%;
+}
+
+.adminPanel-sc-area-table-data {
+    font-size: 20px;
+    color: #333333;
+    
+}
+
+.adminPanel-sc-area-table-data td{
+    border-bottom: 1px solid #ff3333;
+    padding: 2% 1%;
+}
+.adminPanel-sc-area-table-removeButton{
+    width: 50%;
+    height: 100%;
+    color: white;
+    font-size: 75%;
+    font-weight: bold;
+    padding: 4%;
+    background-color: #ff3333;
+    border-radius: 4px;
+    border: 1.5px solid #ff3333;
+    box-shadow: 2px 2px 5px #999999;
+    outline: none;
+}
+
+.adminPanel-sc-area-table-removeButton:hover{
+    cursor: pointer;
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+    box-shadow: 3px 3px 8px #999999;
+}
+
+
+@media only screen and (max-width:1024px){
+.adminPanel-sc-area-table-removeButton{
+    width: 70%;
+} 
+}
+
+
+@media only screen and (max-width:768px){
+.adminPanel-sc-area{
+    width: 80%;
+}
+
+
+.adminPanel-sc-area-table-content{
+    font-size: 24px;
+}
+
+.adminPanel-sc-area-table-data {
+    font-size: 16px;    
+}
+
+.adminPanel-sc-area-table-removeButton{
+    width: 70%;
+}
+
+}

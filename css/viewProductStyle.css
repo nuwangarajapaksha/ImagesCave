@@ -1,0 +1,203 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 15, 2021, 10:55:37 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.viewProduct-area{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    margin: 4% auto;
+    padding: 1% 1%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px #999999;
+}
+
+
+.viewProduct-area-img-area{
+    width: 60%;
+    border-radius: 10px;
+    float: left;
+}
+.viewProduct-area-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.viewProduct-details-aera{
+    background-color: white;
+    width: 35%;
+    height: 460px;
+    margin-left: 61%;
+    padding: 0% 2%;
+}
+.viewProduct-details-aera-pline{
+    margin: 0% auto;
+    padding: 2% 0%;
+    font-size: 25px;
+}
+.viewProduct-details-aera-content{
+    font-weight: bold;
+    color: #ff3333;
+}
+
+.viewProduct-details-aera-data {
+    font-weight: 500;
+    color: #333333;
+}
+.data-description{
+    font-size: 18px;
+}
+.data-sellPrice{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.viewProduct-details-aera-data a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #3366ff;
+}
+.viewProduct-details-aera-data a:hover{
+    color: #0066cc;
+}
+.viewProduct-details-aera-button{
+    width: 100%;
+    height: 55px;
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 1% 1%;
+    margin-top: 2%;
+    border-radius: 10px;
+    outline: none;
+}
+.button-download{
+    background-color: #ff3333;
+    border: 2px solid #ff3333;
+}
+.button-back{  
+    background-color:#3366ff;
+    border: 2px solid #3366ff;
+    color: white;
+}
+
+.viewProduct-details-aera-button:hover{
+    cursor: pointer;    
+}
+.button-download:hover{
+    background-color: #ff0033;
+    border: 2px solid #ff0033;
+}
+
+.button-back:hover{
+    background-color:  #0066cc;
+    border: 2px solid  #0066cc;
+   
+}
+
+.viewProduct-details-aera-verticale-line{
+    width: 100%;
+    height: 1px;
+    margin: 10px auto;
+    margin-top: 10px;
+    background-color: #ff3333;
+}
+
+.viewProduct-seller-table{
+    width: 40%;
+    margin: 20px 0px;
+}
+.viewProduct-seller-table td{
+    font-size: 20px;
+    padding: 1% 4%;
+}
+.viewProduct-seller-table-ppic-area{
+    width: 60px;
+    height: 60px;
+    margin: 0% 1%;
+    border: 2px solid #ff3333;
+    border-radius: 50%;
+    padding: 0.1%;
+    float: left;
+}
+.viewProduct-seller-table-ppic-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+
+
+@media only screen and (max-width:1280px){
+.viewProduct-details-aera{
+    background-color: white;
+    width: 35%;
+    height: 100%;
+    margin-left: 61%;
+    padding: 0% 2%;
+}
+.viewProduct-details-aera-button{
+    width: 100%;
+    height: 50px;
+    padding: 1% 1%;
+    margin-top: 2%;
+}
+.viewProduct-seller-table{
+    width: 50%;
+    margin-top: 5%;
+}
+}
+
+@media only screen and (max-width:768px){
+
+.viewProduct-area-img-area{
+    width: 100%;
+    border-radius: 10px;
+    float: none;
+}
+.viewProduct-area-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.viewProduct-details-aera{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin-top:4%;
+    margin-left: 0%;
+    padding: 0% 0%;
+    border-left: 0px solid #ff3333;
+}
+.viewProduct-seller-table{
+    width: 70%;
+    margin-top: 10%;
+    
+}
+}
+
+@media only screen and (max-width:480px){
+.viewProduct-seller-table{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:320px){
+.viewProduct-seller-table{
+    width: 100%;
+}
+}

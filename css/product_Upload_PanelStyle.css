@@ -1,0 +1,140 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 25, 2021, 10:16:41 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+.productUpload-area{
+    width: 24%;
+    height: 100%;
+    background-color: white;
+    padding: 60px 4%;
+    margin: 8% auto;  
+    border-radius: 8px;
+    box-shadow: 2px 2px 16px #999999;
+}
+.productUpload-area-close-Icon{
+    width: 30px;
+    float: right;
+}
+.productUpload-area-title{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+.productUpload-area-content{
+    font-size: 25px;
+    margin-top: 30px;
+    color: #333333;
+}
+.productUpload-area-input{
+    margin-top: 2%;
+}
+.productUpload-area-errors{
+    font-size: 11px;
+    margin: 1%;
+    color: red;
+    text-transform: none;
+}
+.productUpload-area-button{
+    width: 103%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    background-color: #ff3333;
+    border-radius: 10px;
+    border: 1.5px solid #ff3333;
+    outline: none;
+}
+.productUpload-area-button:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+    cursor: pointer;
+}
+.productUpload-area-verticale-line{
+    width: 70%;
+    height: 1px;
+    margin: 5px auto;
+    margin-top: 40px;
+    background-color: #ff3333;
+}
+
+@media only screen and (max-width:1280px){   
+.productUpload-area{
+    width: 32%;
+    padding: 60px 4%;
+    margin: 8% auto;  
+}   
+}
+@media only screen and (max-width:1024px){
+.productUpload-area{
+    width: 42%;
+    padding: 60px 4%;
+    margin: 8% auto;  
+}    
+}
+@media only screen and (max-width:768px){
+.productUpload-area{
+    width: 56%;
+    padding: 60px 4%;
+    margin: 8% auto;  
+}   
+}
+
+@media only screen and (max-width:480px){
+.productUpload-area{
+    width: 82%;
+    padding: 60px 4%;
+    margin: 8% auto;  
+}  
+}
+
+
+@media only screen and (max-width:320px){
+.productUpload-area{
+    width: 90%;
+    padding: 40px 4%;
+    margin: 8% auto;  
+} 
+
+.productUpload-area-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.productUpload-area-content{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.productUpload-area-input{
+    height: 40px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.productUpload-are-button{
+    height: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.productUpload-area-verticale-line{
+    margin: 10px auto;
+    margin-top: 30px;
+}
+
+    
+}

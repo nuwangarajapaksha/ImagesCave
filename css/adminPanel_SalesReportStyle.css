@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 13, 2021, 8:31:37 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.adminPanel-salesReport-area{
+    width: 72%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.adminPanel-salesReport-area-table{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.adminPanel-salesReport-area-table-content{
+    font-size: 30px;
+    color: #ff3333;
+}
+
+.adminPanel-salesReport-area-table-content td{
+    padding: 2% 1%;
+}
+
+.adminPanel-salesReport-area-table-data {
+    font-size: 24px;
+    color: #333333;
+    
+}
+
+.adminPanel-salesReport-area-table-data td{
+    border-bottom: 1px solid #ff3333;
+    padding: 2% 1%;
+}
+
+.adminPanel-salesReport-area-table-img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (max-width:1024px){
+.adminPanel-salesReport-area-table_removeButton{
+    width: 60%;
+} 
+}
+
+
+@media only screen and (max-width:768px){
+.adminPanel-salesReport-area{
+    width: 80%;
+}
+
+
+.adminPanel-salesReport-area-table-content{
+    font-size: 24px;
+}
+
+.adminPanel-salesReport-area-table-data {
+    font-size: 16px;    
+}
+
+.adminPanel-salesReport-area-table-img{
+    width: 120px;
+}
+
+}

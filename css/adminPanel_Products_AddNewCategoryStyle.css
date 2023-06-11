@@ -1,0 +1,167 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 31, 2021, 1:25:27 AM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.addNewCategoryName-area{
+    width: 24%;
+    height: 100%;
+    background-color: white;
+    padding: 60px 4%;
+    margin: 6% auto;  
+    border-radius: 8px;
+    box-shadow: 2px 2px 16px #999999;
+}
+.addNewCategoryName-area-close-Icon{
+    width: 30px;
+    float: right;
+}
+
+.addNewCategoryName-area-title{
+    font-size: 32px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+}
+
+.addNewCategoryName-area-content{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #333333;
+}
+
+.addNewCategoryName-area-input{
+    width:100%;
+    height: 40px;
+    margin-top: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333333;
+    text-transform: none;
+    border: 1.5px solid #ff3333;
+    border-radius: 10px;
+    outline: none;
+}
+
+.addNewCategoryName-area-errors{
+    font-size: 11px;
+    margin: 1%;
+    color: red;
+    text-transform: none;
+}
+
+.incorrect-error{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.addNewCategoryName-area-button{
+    width: 103%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #ff3333;
+    border-radius: 10px;
+    border: 1.5px solid #ff3333;
+    outline: none;
+}
+
+.addNewCategoryName-area-input:hover{
+    border: 1.5px solid #ff0033;
+}
+
+.addNewCategoryName-area-button:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;  
+    cursor: pointer;
+}
+
+.addNewCategoryName-area-verticale-line{
+    width: 70%;
+    height: 1px;
+    margin: 10px auto;
+    margin-top: 20px;
+    background-color: #ff3333;
+}
+
+
+
+
+
+@media only screen and (max-width:1280px){   
+.addNewCategoryName-area{
+    width: 30%;
+    margin: 6% auto;  
+}    
+}
+@media only screen and (max-width:1024px){
+    
+.addNewCategoryName-area{
+    width: 40%;
+    margin: 6% auto;  
+}    
+}
+@media only screen and (max-width:768px){
+    
+.addNewCategoryName-area{
+    width: 50%;
+    margin: 6% auto;  
+}    
+}
+@media only screen and (max-width:480px){
+ .addNewCategoryName-area{
+    width: 80%;
+    margin: 6% auto;  
+}  
+}
+
+
+@media only screen and (max-width:320px){
+ .addNewCategoryName-area{
+    width: 90%;
+    padding: 40px 4%;
+    margin: 6% auto; 
+}
+
+.addNewCategoryName-area-title{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.addNewCategoryName-area-content{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.addNewCategoryName-area-input{
+    height: 40px;
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.addNewCategoryName-area-button{
+    height: 40px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.addNewCategoryName-area-verticale-line{
+    margin: 10px auto;
+    margin-top: 30px;
+}
+
+    
+}

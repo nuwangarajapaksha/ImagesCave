@@ -1,0 +1,156 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 29, 2021, 10:16:33 PM
+    Author     : EZIO AUDITORY
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+a{
+   text-decoration: none;
+}
+.buyerInvoice-area{
+    width: 96%;
+    height: 100%;
+    background-color: white;
+    margin: 0% auto;
+    border: 1px solid black;
+}
+.buyerInvoice-area-header{
+    width: 100%;
+    height: 60px;
+}
+.buyerInvoice-area-header-logo{
+    width: 180px;
+    position: absolute;
+    margin-left: 5%;
+    font-size: 30px;
+    color: #000000;
+}
+
+.buyerInvoice-area-header-title{
+    text-align: center;
+    font-size: 30px;
+    color: #333333;
+    font-weight: bold;
+}
+
+
+.buyerInvoice-area-details-area{
+    width: 100%;
+    height: 100%;
+}
+
+.buyerInvoice-area-buyerTable{
+    width: 60%;
+    padding:0% 4%; 
+}
+.buyerInvoice-area-buyerTable td{
+    padding: 1%;
+    font-size: 16px;
+}
+.buyerInvoice-area-buyerTable-content{
+    color: #ff3333;
+}
+.buyerInvoice-area-buyerTable-data{
+    color: #333333;
+}
+
+
+
+.buyerInvoice-area-productTable{
+    width: 100%;
+    padding:2% 4%;   
+}
+.buyerInvoice-area-productTable-content td{
+    padding: 1.5% 1%;
+    padding-bottom: 2%;
+    font-size: 18px;
+    color: #ff3333;
+    border-bottom: 1px solid #ff3333;
+}
+.buyerInvoice-area-productTable-data td{
+     padding: 2% 1%;
+     padding-bottom: 2%;
+     font-size: 14px;
+     color: #333333;
+     border-bottom: 1px solid #ff3333;
+}
+.buyerInvoice-area-productTable-total{
+    font-size: 24px;
+    padding: 4% 1%;
+    text-align: right;
+    border-bottom: 1px solid #ff3333;
+    color: #333333;
+}
+.buyerInvoice-area-productTable-colenMark{
+    font-size: 24px;
+    text-align: center;
+    padding: 4% 1%;
+    border-bottom: 1px double #ff3333;
+    color: #333333;
+}
+.buyerInvoice-area-productTable-price{
+    font-size: 24px;
+    padding: 4% 1%;
+    border-bottom: 5px double #ff3333;
+    color: #333333;
+}
+
+.buyerInvoice-area-printButton{
+    width: 8%;
+    height: 40px;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    margin-left: 4%;
+    background-color:#333333;
+    border: 1.5px solid #333333;
+    border-radius: 10px;
+    outline: none;
+}
+.buyerInvoice-area-printButton:hover{
+    background-color: black;
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+
+.buyerInvoice-area-footer{
+    width: 100%;
+    position: static;
+    color: #333333;
+    border-top: 1px solid black;
+}
+.buyerInvoice-area-footer-contacts{
+    display: inline-table;
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+.buyerInvoice-area-footer-contacts-title{
+    margin: 0px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.buyerInvoice-area-footer-contact-Information{
+    font-size: 14px;
+    font-weight: 300;
+    color:black;
+}
+
+.buyerInvoice-area-footer-contact-Information a{
+    color:  black; 
+}
+/*.buyerInvoice-area-footer-contact-Information a:hover{
+    color: #ffffff;
+}*/
+

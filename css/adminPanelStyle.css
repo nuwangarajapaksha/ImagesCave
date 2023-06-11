@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2021, 8:12:03 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+.adminPanel-area{
+    width: 88%;
+    height: 100%;
+    margin: 1% auto;
+}
+
+.adminPanel-area-card{
+    display: inline-table;
+    background-color: white;
+    width: 20%;
+    height: 100%;
+    margin: 14px 0px;
+    margin-left: 0.8%;
+    padding: 2%;
+    border-radius: 8px;
+    box-shadow: 4px 4px 16px #999999;
+}
+
+.adminPanel-area-card:hover{
+    box-shadow: 8px 8px 24px #999999;
+}
+.adminPanel-area-card:hover .adminPanel-area-card-img{
+    opacity: 1;
+}
+
+.adminPanel-area-card-img{
+    width: 100%;
+    border-top-right-radius: 8px;
+    border-top-left-radius:8px; 
+}
+
+.adminPanel-area-card-content{
+    font-size: 125%;
+    font-weight: bold;
+    color: #ff3333;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 6%;
+}

@@ -1,0 +1,96 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 9, 2021, 11:06:56 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.adminPanel-buyers-area{
+    width: 72%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.adminPanel-buyers-area-table{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.adminPanel-buyers-area-table-content{
+    font-size: 30px;
+    color: #ff3333;
+}
+
+.adminPanel-buyers-area-table-content td{
+    padding: 2% 1%;
+}
+
+.adminPanel-buyers-area-table-data {
+    font-size: 20px;
+    color: #333333;
+    
+}
+
+.adminPanel-buyers-area-table-data td{
+    border-bottom: 1px solid #ff3333;
+    padding: 2% 1%;
+}
+.adminPanel-buyers-area-table-removeButton{
+    width: 40%;
+    height: 100%;
+    color: white;
+    font-size: 75%;
+    font-weight: bold;
+    padding: 4%;
+    background-color: #ff3333;
+    border-radius: 4px;
+    border: 1.5px solid #ff3333;
+    box-shadow: 2px 2px 5px #999999;
+    outline: none;
+}
+
+.adminPanel-buyers-area-table-removeButton:hover{
+    cursor: pointer;
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+    box-shadow: 3px 3px 8px #999999;
+}
+
+
+@media only screen and (max-width:1024px){
+.adminPanel-buyers-area-table-removeButton{
+    width: 60%;
+} 
+}
+
+
+@media only screen and (max-width:768px){
+.adminPanel-buyers-area{
+    width: 80%;
+}
+
+
+.adminPanel-buyers-area-table-content{
+    font-size: 24px;
+}
+
+.adminPanel-buyers-area-table-data {
+    font-size: 16px;    
+}
+
+.adminPanel-buyers-area-table-removeButton{
+    width: 70%;
+}
+
+}

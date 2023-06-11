@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 10, 2021, 4:14:55 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.adminPanel-sellers-area{
+    width: 80%;
+    height: 100%;
+    margin: 40px auto;
+}
+
+.adminPanel-sellers-area-table{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.adminPanel-sellers-area-table-content{
+    font-size: 28px;
+    color: #ff3333;
+}
+
+.adminPanel-sellers-area-table-content td{
+    padding: 2% 1%;
+}
+
+.adminPanel-sellers-area-table-data {
+    font-size: 20px;
+    color: #333333;
+    
+}
+
+.adminPanel-sellers-area-table-data td{
+    border-bottom: 1px solid #ff3333;
+    padding: 2% 1%;
+}
+.adminPanel-sellers-area-table-ppic-area{
+    width: 60px;
+    height: 60px;
+    border: 2px solid #ff3333;
+    border-radius: 50%;
+    padding: 1%;
+}
+.adminPanel-sellers-area-table-data-ppic{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.adminPanel-sellers-area-table-button{  
+    width: 60%;
+    height: 100%;
+    color: white;
+    font-size: 75%;
+    font-weight: bold;
+    padding: 4% 1%;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px #999999;
+    outline: none;
+}
+
+.button-more{  
+    background-color: #3366ff;
+    border: 1.5px solid #3366ff;
+}
+
+.button-remove{
+    background-color: #ff3333;
+    border: 1.5px solid #ff3333;
+}
+
+
+.adminPanel-sellers-area-table-button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #999999;
+}
+
+.button-more:hover{
+    background-color: #0066cc;
+    border: 1.5px solid #0066cc;
+}
+
+.button-remove:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:1024px){
+.adminPanel-sellers-area-table-button{
+    width: 75%;
+} 
+}
+
+
+@media only screen and (max-width:768px){
+.adminPanel-sellers-area{
+    width: 80%;
+}
+
+
+.adminPanel-sellers-area-table-content{
+    font-size: 22px;
+}
+
+.adminPanel-sellers-area-table-data {
+    font-size: 16px;    
+}
+
+.adminPanel-sellers-area-table-button{
+    width: 80%;
+}
+
+}

@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 30, 2021, 11:39:25 PM
+    Author     : EZIO AUDITORY
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}
+.sc-area{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: 0% auto;
+    padding: 1%;  
+}
+.sc-area-title{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #ff3333;
+}
+.sc-area-input{
+    height: 40px;
+    margin-top: 8px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333333;
+    text-transform: none;
+    border: 1.5px solid #ff3333;
+    border-radius: 10px;
+    outline: none;
+}
+.input-visitorName{
+     width:10%;
+}
+.input-scDetails{
+     width:50%;
+     height: 100px;
+     padding: 20px 10px;
+}
+.sc-area-input:hover{
+     border: 1.5px solid #ff0033;
+}
+.sc-area-button{
+    width: 11%;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+    background-color: #ff3333;
+    border-radius: 10px;
+    border: 1.5px solid #ff3333;
+    outline: none;
+}
+.sc-area-button:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+    cursor: pointer;
+}
+
+
+.sc-sow-area{
+    width: 90%;
+    height: 100%;
+    background-color: white;
+    margin: 0% auto;
+    padding: 1%;
+}
+.sc-sow-area-table{
+    width: 100%;
+    background-color: white;
+}
+.sc-sow-area-table-content{
+    font-size: 24px;
+    color: #ff3333;
+}
+.sc-sow-area-table-content td{
+    border-bottom: 2px solid #ff3333;
+    padding: 2% 1%;
+}
+.sc-sow-area-table-data{
+    font-size: 18px;
+    color: #333333;
+}
+
+.sc-sow-area-table-data td{
+     border-bottom: 1px solid #ff3333;
+     padding: 2% 1%;
+}
+
+
+@media only screen and (max-width:1024px){
+
+}
+
+
+@media only screen and (max-width:768px){
+.input-visitorName{
+     width:20%;
+}
+.input-scDetails{
+     width:60%;
+     height: 100px;
+     padding: 20px 10px;
+}
+.sc-area-button{
+    width: 21%;
+    height: 40px;
+}
+}
+@media only screen and (max-width:320px){
+.input-visitorName{
+     width:30%;
+}
+.input-scDetails{
+     width:70%;
+     height: 100px;
+     padding: 20px 10px;
+}
+.sc-area-button{
+    width: 31%;
+    height: 40px;
+}
+.sc-sow-area-table-content{
+    font-size: 20px;
+    color: #ff3333;
+}
+.sc-sow-area-table-data{
+    font-size: 16px;
+    color: #333333;
+}
+}

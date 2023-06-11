@@ -1,0 +1,217 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 12, 2021, 8:21:33 PM
+    Author     : EZIO AUDITORY
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Arial";
+    text-transform: capitalize;
+}
+
+.productReport-area{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    margin: 2% auto;
+    padding: 4% 4%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 16px #999999;
+}
+.productReport-area-logo{
+     width: 300px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.productReport-area-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 4% auto;
+}
+
+.productReport-area-img-area{
+    width: 100%;
+    border-radius: 10px;
+}
+.productReport-area-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.productReport-details-aera{
+    width: 100%;
+    margin: 4% auto;
+}
+
+.productReport-area-table{
+    width: 100%;
+    margin: 4% 0px;
+}
+.productReport-area-table td{
+    padding: 2%;
+    font-size: 20px;
+}
+.productReport-area-table-content{
+    font-weight: bold;
+    color: #ff3333;
+}
+.productReport-area-table-input{
+    width:40%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 16px;
+    color: #333333;
+    text-transform: none;
+    border: 1.5px solid #ff3333;
+    border-radius: 6px;
+    outline: none;
+}
+.productReport-area-table-input:hover{
+    border: 1.5px solid #ff0033;
+}
+.productReport-area-table-data{
+    font-weight: 500;
+    color: #333333;
+}
+.productReport-area-table-data a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #3366ff;
+}
+.productReport-area-table-data a:hover{
+    color: #0066cc;
+}
+.productReport-area-table-button{
+    width: 120%;
+    height: 160%;
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 1% 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999999;
+    outline: none;
+}
+
+.productReport-details-aera-button{
+    width: 12%;
+    height: 100%;
+    color: white;
+    font-size: 110%;
+    font-weight: bold;
+    padding: 1% 1%;
+    margin-top: 1%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #999999;
+    outline: none;
+}
+.button-save{
+    width: 100%;
+    margin-top: 0%;
+    background-color: #ff3333;
+    border: 1.5px solid #ff3333;
+}
+.button-remove{
+    background-color: #ff3333;
+    border: 1.5px solid #ff3333;
+}
+
+.button-back{  
+    background-color: #3366ff;
+    border: 1.5px solid #3366ff;
+}
+
+.productReport-details-aera-button:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 8px #999999;
+}
+.button-save:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+}
+.button-remove:hover{
+    background-color: #ff0033;
+    border: 1.5px solid #ff0033;
+}
+
+.button-back:hover{
+    background-color: #0066cc;
+    border: 1.5px solid #0066cc;
+}
+
+
+.productReport-details-aera-verticale-line{
+    width: 100%;
+    height: 1px;
+    margin: 10px auto;
+    margin-top: 40px;
+    background-color: #ff3333;
+}
+
+@media only screen and (max-width:1280px){
+.productReport-details-aera-button{
+    width: 18%;
+    font-size: 110%;
+    padding: 1% 1%;
+    margin-top: 1%;
+}
+.button-save{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:768px){
+.productReport-area{
+    width: 80%;
+    margin: 2% auto;
+    padding: 4% 4%;
+}
+
+.productReport-details-aera-button{
+    width: 20%;
+    font-size: 110%;
+    padding: 1% 1%;
+    margin-top: 1%;
+}
+.button-save{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:480px){
+.productReport-details-aera-button{
+    width: 30%;
+    font-size: 110%;
+    padding: 2% 1%;
+    margin-top: 1%;
+}
+.button-save{
+    width: 100%;
+}
+}
+
+@media only screen and (max-width:320px){
+.productReport-area{
+        width: 100%;
+    }
+.productReport-area-logo{
+     width: 200px;
+}
+.productReport-details-aera-button{
+    width: 40%;
+    font-size: 110%;
+    padding: 2% 1%;
+    margin-top: 1%;
+}
+.button-save{
+    width: 100%;
+}
+}
